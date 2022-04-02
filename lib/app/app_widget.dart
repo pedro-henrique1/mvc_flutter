@@ -1,4 +1,4 @@
-import 'package:consume_api/app/controller/app_controller.dart';
+import 'package:consume_api/app/app_controller.dart';
 import 'package:consume_api/app/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
 

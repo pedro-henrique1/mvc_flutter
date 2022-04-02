@@ -1,4 +1,4 @@
-import 'package:consume_api/app/components/custom_switch_widget.dart';
+import 'package:consume_api/app/pages/home/components/custom_switch_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

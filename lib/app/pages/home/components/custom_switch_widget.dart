@@ -1,4 +1,4 @@
-import 'package:consume_api/app/controller/app_controller.dart';
+import 'package:consume_api/app/app_controller.dart';
 import 'package:flutter/material.dart';
 
 class SwitchCustom extends StatelessWidget {
@@ -9,7 +9,7 @@ class SwitchCustom extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Switch(
-            value: AppController.instance.themeSwitch.value,
+            value: AppController.instance.isDark,
             onChanged: (value) {
               AppController.instance.changeTheme(value);
             }),
