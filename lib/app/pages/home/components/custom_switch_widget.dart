@@ -11,7 +11,7 @@ class SwitchCustom extends StatelessWidget {
         child: Switch(
             value: AppController.instance.isDark,
             onChanged: (value) {
-              AppController.instance.changeTheme(value);
+              AppController.instance.changeThemeViewModel.changeTheme(value);
             }),
       ),
     );
